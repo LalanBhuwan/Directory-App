@@ -1,0 +1,17 @@
+.add_and_retrieve_btn{
+  display: flex;
+  position: relative;
+  top: 4vh;
+  gap: 4vw;
+  left: 5vw;
+}  
+.add_and_retrieve_btn > button{
+  background-color: rgb(17, 108, 218);
+  border-style: none;
+  padding: 8px;
+}
+
+.btn{
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,127 @@
+
+
+.main_container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.section_container{
+    margin-top: 50px;
+    position: relative;
+    height: 75vh;
+    width: 90vw;
+    border: solid 1px; 
+    /* overflow: hidden;
+    overflow-y: scroll; */
+}
+
+.add_new_per_span, .retrieveTag_span{
+    font-size: 1.5rem;
+    padding: 0 25px 5px 25px;
+    border: 1px solid;
+    /* position: fixed; */
+
+}
+
+
+.table_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;   
+}
+
+.overflow{
+    /* overflow: scroll; */
+}
+table, th, td{
+   
+    border: 2px solid black;
+    padding: 8px;
+    
+}
+/* tbody{
+    overflow: scroll;
+} */
+table{
+    height: auto;
+    width: 89vw;
+    /* overflow: scroll; */
+    
+}
+th{
+    background-color: rgb(2, 171, 255);
+    color: white;
+}
+
+
+
+input{
+
+    width: 13vw;
+    height: 18px;
+}
+
+.add_btn{
+    position: absolute;
+    top: 67vh;
+    left: 76vw;
+    width: 12vw;
+    height: 6vh;
+    font-size: 105%;
+    color: white;
+    background-color: rgb(17, 108, 218);
+    border-style: none;
+
+    
+}
+.action{
+    color: rgb(17, 108, 218);
+    margin-left: 5px;
+    text-decoration: underline;
+    font-size: medium;
+    border-style: none;
+    background-color: white;
+}
+
+/* @media screen and(min-width: 300px) {
+    .table_container{
+        width:55vw;
+
+    }
+    
+} */
+
+
+.search_info{
+    margin: 30px;
+}
+.search_info > input{
+    width: 12rem;
+    height: 1.8rem;
+}
+.search_info > button{
+    width: 4.5rem;
+    height: 2rem;
+    margin-left: 2rem;
+    background-color: rgb(17, 108, 218);
+    color: white;
+    font-size: large;
+    border-style: none;
+    border-radius: 2px;
+    
+}
+
+
+.retrieve_Info_container{
+    width: 15rem;
+    height: 14rem;
+    border: 1px solid;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
